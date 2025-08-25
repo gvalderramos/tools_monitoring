@@ -1,0 +1,29 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.wasm
+
+# Test results
+*.test
+*.out
+
+# Go module cache
+# This is usually managed by Go itself, but can be ignored if desired
+# go.mod
+go.sum
+
+# Dependency vendor directory (if used)
+# This is often managed by Go modules and may or may not be ignored depending on project practices.
+vendor/
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs and temporary files
+*.log
+tmp/
