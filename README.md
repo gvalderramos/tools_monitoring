@@ -104,6 +104,11 @@ Each consumed message will increment the Prometheus counter
 The listener service exposes: - `logs_consumed_total`: Counter for
 messages consumed from RabbitMQ.
 
+![Grafana Dashboard](img/grafana.png)
+
+This counter is provided as an **example of functionality**.  
+The real goal of this project is to **filter and transform each tool log** in order to analyze the **severity of problems** and expose them in Grafana dashboards. This allows potential issues to be detected and addressed **before users report them**.
+
 ------------------------------------------------------------------------
 
 ## 🔄 Restart Policy
